@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>chapter07</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>SimpleJspServlet</servlet-name>
+    <jsp-file>/simple.jsp</jsp-file>
+    
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleJspServlet</servlet-name>
+    <url-pattern>/itcast</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>ceshi</servlet-name>
+  	<jsp-file>/demo.jsp</jsp-file>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>DynamicIncludeJspServlet</servlet-name>
+    <jsp-file>/dynamicInclude.jsp</jsp-file>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>DynamicIncludeJspServlet</servlet-name>
+    <url-pattern>/xxx/dynamicInclude.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Index3</display-name>
+    <servlet-name>Index3</servlet-name>
+    <servlet-class>Index3</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Index3</servlet-name>
+    <url-pattern>/Index3</url-pattern>
+  </servlet-mapping>
+</web-app>

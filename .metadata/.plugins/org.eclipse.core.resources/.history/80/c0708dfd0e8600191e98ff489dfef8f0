@@ -1,0 +1,17 @@
+package cn.itcast.chapter08.javabean;
+
+import java.beans.BeanInfo;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+
+
+
+public class IntrospectorDemo01 {
+
+	public static void main(String[] args)throws Exception{
+		Person beanObj=new Person();
+		
+		
+	}
+	
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>chapter04</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+    <context-param>
+  	<param-name>companyName</param-name>
+  	<param-value>itcast</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>address</param-name>
+  	<param-value>beijing</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>encoding</param-name>
+  	<param-value>全局变量 </param-value>
+  
+  </context-param>
+  
+  <servlet>
+    <description></description>
+    <display-name>TestServlet01</display-name>
+    <servlet-name>TestServlet01</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.TestServlet01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet01</servlet-name>
+    <url-pattern>/Test01</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet>
+    <description></description>
+    <servlet-name>TestServlet02</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.TestServlet02</servlet-class>
+    <init-param> 
+    	<param-name> encoding</param-name>
+    	<param-value> 局部</param-value>
+    </init-param>
+      <init-param> 
+    	<param-name> HerName</param-name>
+    	<param-value> 户静</param-value>
+    </init-param>
+      <init-param> 
+    	<param-name> MyName</param-name>
+    	<param-value> 赵培胜</param-value>
+    </init-param>
+    
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>TestServlet02</servlet-name>
+    <url-pattern>/Test02</url-pattern>
+  </servlet-mapping>
+  
+
+  
+ <servlet>
+    <display-name>TestServlet03</display-name>
+    <servlet-name>TestServlet03</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.TestServlet03</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet03</servlet-name>
+    <url-pattern>/Test03</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+    <display-name>TestServlet04</display-name>
+    <servlet-name>TestServlet04</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.TestServlet04</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet04</servlet-name>
+    <url-pattern>/Test04</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+
+    <servlet-name>TestServlet05</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.TestServlet05</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet05</servlet-name>
+    <url-pattern>/Test05</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <display-name>TestServlet06</display-name>
+    <servlet-name>TestServlet06</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.TestServlet06</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet06</servlet-name>
+    <url-pattern>/Test06</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>CountServlet</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.CountServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>CountServlet</servlet-name>
+    <url-pattern>/counts</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>ShowTimesServlet</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.ShowTimesServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowTimesServlet</servlet-name>
+    <url-pattern>/ShowTimes</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>cn.itcast.chapter04.servlet.MyServlet</servlet-class>
+    <init-param>
+    	<param-name> encoding</param-name>
+    	<param-value> UTF-8</param-value>
+    </init-param>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/MyServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

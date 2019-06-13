@@ -1,0 +1,21 @@
+package cn.itcast.chapter08.javabean;
+
+import java.beans.IntrospectionException;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Method;
+
+public class IntrospectorDemo03 {
+
+	public static void main(String[] args) throws Exception {
+		
+		Person0 p=new Person0();
+		p.setName("¿Ó∑º");
+		p.setAge(20);
+		
+		PropertyDescriptor pd=new PropertyDescriptor("name",p.getClass());
+		Method md=pd.getReadMethod();
+		
+		
+	}
+
+}

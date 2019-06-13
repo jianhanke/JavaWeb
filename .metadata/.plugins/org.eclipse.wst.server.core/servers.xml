@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="false" com.springsource.tcserver.name="base-instance" com.springsource.tcserver.version="9.0.13.B.RELEASE" configuration-id="/Servers/Pivotal tc Server Developer Edition v4.0-config" deployDir="wtpwebapps" hostname="localhost" id="Pivotal tc Server Developer Edition v4.0" id-set="true" name="Pivotal tc Server Developer Edition v4.0" runtime-id="Pivotal tc Server Developer Edition (Runtime) v4.0" saveSeparateContextFiles="true" server-type="com.pivotal.server.tc.90" server-type-id="com.pivotal.server.tc.90" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="8">
+    <list key="modules" value0="chapter04::org.eclipse.jst.jee.server:chapter04::jst.web::2.5" value1="chapter05::org.eclipse.jst.jee.server:chapter05::jst.web::2.5" value2="chapter06::org.eclipse.jst.jee.server:chapter06::jst.web::2.5" value3="chapter07::org.eclipse.jst.jee.server:chapter07::jst.web::2.5" value4="chapter08::org.eclipse.jst.jee.server:chapter08::jst.web::2.5" value5="chapter09::org.eclipse.jst.jee.server:chapter09::jst.web::2.5"/>
+  </server>
+</servers>

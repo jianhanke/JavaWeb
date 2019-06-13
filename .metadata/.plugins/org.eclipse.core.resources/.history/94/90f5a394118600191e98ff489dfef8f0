@@ -1,0 +1,35 @@
+package cn.itcast.chapter08.javabean;
+
+import java.beans.IntrospectionException;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Method;
+
+public class IntrospectorDemo02 {
+
+	public static void main(String[] args) throws Exception {
+//		Person2 p=new Person2();
+//		
+//		PropertyDescriptor pd=new PropertyDescriptor("name",p.getClass());
+//		Method methodName=pd.getWriteMethod();
+//		methodName.invoke(p, "ะกร๗");
+//		String val="20";
+//		pd=new PropertyDescriptor("age",p.getClass());
+//		
+//		Method methodAge=pd.getWriteMethod();
+//		Class clazz=pd.getPropertyType();
+//		if(clazz.equals(int.class)) {
+//			methodAge.invoke(p, Integer.valueOf(val));
+//		}else {
+//			methodAge.invoke(p, val);
+//		}
+//		System.out.println(p);
+		
+		Person2 p=new Person2();
+		PropertyDescriptor prot=new PropertyDescriptor("name",p.getClass());
+		WriteMethod md=prot.getWriteMethod();
+		md.invoke();
+		
+		
+	}
+	
+}

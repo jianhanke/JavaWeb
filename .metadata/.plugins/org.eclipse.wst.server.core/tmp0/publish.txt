@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Sun Jun 09 23:41:02 CST 2019
+org.eclipse.jst.jee.server\:chapter09=F\:\\spiring\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\chapter09
+org.eclipse.jst.jee.server\:chapter08=F\:\\spiring\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\chapter08
+org.eclipse.jst.jee.server\:chapter07=F\:\\spiring\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\chapter07
+org.eclipse.jst.jee.server\:chapter06=F\:\\spiring\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\chapter06
+org.eclipse.jst.jee.server\:chapter05=F\:\\spiring\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\chapter05
+org.eclipse.jst.jee.server\:chapter04=F\:\\spiring\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\chapter04

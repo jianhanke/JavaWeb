@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="reg" action="/chapter06/LoginServlet2" method="post">
+	ç¨æ·å <input name="username" type="text" /><br/>
+	å¯ç <input name="password" type="password" /> <br/>
+	éªè¯ç : <input type="text" name="check_code">    <img src="/chapter06/CheckServlet" > <br />
+	<input	type="submit" value="æäº¤" id="bt" />
+</form>
+</body>
+</html>
